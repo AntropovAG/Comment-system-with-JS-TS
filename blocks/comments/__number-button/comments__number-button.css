@@ -1,0 +1,12 @@
+.comments__number-button {
+    display: flex;
+    height: fit-content;
+    gap: 13px;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.comments__number-button:hover {
+    cursor: pointer;
+}

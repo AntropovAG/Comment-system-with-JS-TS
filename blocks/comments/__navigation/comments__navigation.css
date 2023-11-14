@@ -1,0 +1,6 @@
+.comments__navigation {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    min-height: 55px;
+}

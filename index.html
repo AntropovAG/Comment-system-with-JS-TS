@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Комментари</title>
+</head>
+<body class="page">
+  <header class="header"></header>
+  <aside class="sidebar"></aside>
+  <main>
+    <section class="comments">
+      <div class="comments__wrapper">
+        <div class="comments__info"></div>
+        <div class="comments__info"></div>
+        <div class="comments__info"></div>
+        <div class="comments__info"></div>
+        <div class="comments__info"></div>
+        <div class="comments__info"></div>
+        <div class="comments__info"></div>
+        <div class="comments__info"></div>
+        <div class="comments__info"></div>
+      </div>
+      <div class="comments__navigation">
+        <button type="button" class="comments__number-button">
+          <p class="comments__number-text">Комментарии</p> 
+          <p class="comments__number-span">(80)</p>
+        </button>
+        <div class="comments__sorting-container">
+          <button class="comments__select-button">По количеству оценок</button>
+          <ul class="comments__select-menu">
+            <li class="comments__select-option" id="date">
+              <img class="comments__select-option-img" src="./Images/checkmark.png">
+              <p class="comments__select-option-txt">По дате</p>
+            </li>
+            <li class="comments__select-option" id="grade">По количеству оценок</li>
+            <li class="comments__select-option" id="actuality">По актуальности</li>
+            <li class="comments__select-option" id="replyNumber">По количеству ответов</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <script src="./main.js"></script>
+</body>
+</html>

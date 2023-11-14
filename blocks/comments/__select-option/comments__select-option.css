@@ -1,0 +1,14 @@
+.comments__select-option {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: .4;
+    padding: 0;
+    margin: 5px 0;
+    position: relative;
+}
+
+.comments__select-option:hover {
+    cursor: pointer;
+}
