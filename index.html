@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
-    <title>Комментари</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Комментари</title>
 </head>
+
 <body class="page">
   <header class="header"></header>
   <aside class="sidebar"></aside>
@@ -24,25 +26,40 @@
       </div>
       <div class="comments__navigation">
         <button type="button" class="comments__number-button">
-          <p class="comments__number-text">Комментарии</p> 
-          <p class="comments__number-span">(80)</p>
+          <p class="comments__number-text">Комментарии</p>
+          <p class="comments__number-span">(0)</p>
         </button>
         <div class="comments__sorting-container">
           <button class="comments__select-button">По количеству оценок</button>
-          <ul class="comments__select-menu">
-            <li class="comments__select-option" id="date">
-              <img class="comments__select-option-img" src="./Images/checkmark.png">
-              <p class="comments__select-option-txt">По дате</p>
-            </li>
-            <li class="comments__select-option" id="grade">По количеству оценок</li>
-            <li class="comments__select-option" id="actuality">По актуальности</li>
-            <li class="comments__select-option" id="replyNumber">По количеству ответов</li>
-          </ul>
+          <form class="comments__select-menu">
+            <label class="comments__select-option">
+              <input class="comments__select-option-input" type="radio" name="sorting" value="date">
+              По дате
+            </label>
+            <label class="comments__select-option">
+              <input class="comments__select-option-input" type="radio" name="sorting" value="date">
+              По количеству оценок
+            </label>
+            <label class="comments__select-option">
+              <input class="comments__select-option-input" type="radio" name="sorting" value="date">
+              По актуальности
+            </label>
+            <label class="comments__select-option">
+              <input class="comments__select-option-input" type="radio" name="sorting" value="date">
+              По количеству ответов
+            </label>
+          </form>
+          <button class="comments__sort-button"></button>
         </div>
+        <button class="comments__fav-display-button">
+          Избранное
+          <img src="./Images/fav_sort_button.png" alt="">
+        </button>
       </div>
     </section>
 
   </main>
   <script src="./main.js"></script>
 </body>
+
 </html>

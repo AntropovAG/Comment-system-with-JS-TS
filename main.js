@@ -4,4 +4,10 @@ function display(text) {
 }
 display(yourName);
 
-//# sourceMappingURL=main.js.map
+const button = document.querySelector(".comments__select-button");
+const form = document.querySelector(".comments__select-menu");
+
+button.addEventListener("click", () => {
+    console.log("Clicked");
+    form.classList.toggle("comments__select-menu_state_displayed");
+});
