@@ -9,4 +9,5 @@
     position: absolute;
     top: 30px;
     padding: 0 0 0 8px;
+    z-index: 2;
 }
