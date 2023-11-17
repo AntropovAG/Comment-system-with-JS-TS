@@ -1,0 +1,13 @@
+.comments__add-comment-button {
+    grid-area: button;
+    height: 61px;
+    width: 213px;
+    justify-self: end;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;
+    border-radius: 5px;
+    border: none;
+}

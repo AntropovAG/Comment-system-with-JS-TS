@@ -1,0 +1,11 @@
+.comments__add-comment-user-name {
+    grid-area: userName;
+    color: #122AC0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+    align-self: center;
+    margin: 0;
+}

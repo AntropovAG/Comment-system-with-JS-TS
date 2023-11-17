@@ -17,3 +17,14 @@
 @import url(../blocks/comments/__select-option/comments__select-option.css);
 @import url(../blocks/comments/__select-option-input/comments__select-option-input.css);
 @import url(../blocks/comments/__sort-button/comments__sort-button.css);
+@import url(../blocks/comments/__fav-display-button/comments__fav-display-button.css);
+@import url(../blocks/comments/__fav-display-img/comments__fav-display-img.css);
+@import url(../blocks/comments/__add-comment-form/comments__add-comment-form.css);
+@import url(../blocks/comments/__add-comment-user-img/comments__add-comment-user-img.css);
+@import url(../blocks/comments/__add-comment-user-name/comments__add-comment-user-name.css);
+@import url(../blocks/comments/__add-comment-txt-limit/comments__add-comment-txt-limit.css);
+@import url(../blocks/comments/__add-comment-error-msg/comments__add-comment-error-msg.css);
+@import url(../blocks/comments/__add-comment-textarea/comments__add-comment-textarea.css);
+@import url(../blocks/comments/__add-comment-button/comments__add-comment-button.css);
+@import url(../blocks/comments/__add-comment-button/_type/_disabled/comments__add-comment-button_type_disabled.css);
+@import url(../blocks/comments/__add-comment-button/_type/_enabled/comments__add-comment-button_type_enabled.css);

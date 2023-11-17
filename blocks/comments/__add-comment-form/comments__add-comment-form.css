@@ -1,0 +1,9 @@
+.comments__add-comment-form {
+    display: grid;
+    grid-template-areas: 
+    "img userName textInfo errorMessage"
+    ".   textarea textarea button";
+    grid-template-columns: 91px 344px 344px 243px;
+    grid-template-rows: 37px auto;
+    margin-top: 32px;
+}

@@ -10,7 +10,9 @@
 
 <body class="page">
   <header class="header"></header>
+
   <aside class="sidebar"></aside>
+
   <main>
     <section class="comments">
       <div class="comments__wrapper">
@@ -53,11 +55,18 @@
         </div>
         <button class="comments__fav-display-button">
           Избранное
-          <img src="./Images/fav_sort_button.png" alt="">
+          <img class="comments__fav-display-img" src="./Images/fav_sort_button.png" alt="избранное">
         </button>
       </div>
+      <form class="comments__add-comment-form" name="comment">
+        <img class="comments__add-comment-user-img" src="./Images/user_photo_1.jpg" alt="фото пользователя">
+        <p class="comments__add-comment-user-name">Имя Пользователя</p>
+        <p class="comments__add-comment-txt-limit">Макс. 1000 символов</p>
+        <p class="comments__add-comment-error-msg">Слишком длинное сообщение</p>
+        <textarea class="comments__add-comment-textarea" name="comment" id="addComment" placeholder="Введите текст сообщения..." maxlength="1000"></textarea>
+        <button class="comments__add-comment-button comments__add-comment-button_type_disabled" type="button" disabled>Отправить</button>
+      </form>
     </section>
-
   </main>
   <script src="./main.js"></script>
 </body>
