@@ -58,12 +58,12 @@
           <img class="comments__fav-display-img" src="./Images/fav_sort_button.png" alt="избранное">
         </button>
       </div>
-      <form class="comments__add-comment-form" name="comment">
+      <form class="comments__add-comment-form" name="comment" id="addCommentForm">
         <img class="comments__user-img" src="./Images/user_photo_1.jpg" alt="фото пользователя">
         <p class="comments__user-name">Имя Пользователя</p>
         <p class="comments__add-comment-txt-limit">Макс. 1000 символов</p>
         <p class="comments__add-comment-error-msg">Слишком длинное сообщение</p>
-        <textarea class="comments__add-comment-textarea" name="comment" id="addComment"
+        <textarea class="comments__add-comment-textarea" name="comment"
           placeholder="Введите текст сообщения..." maxlength="1000" rows="1"></textarea>
         <button class="comments__add-comment-button comments__add-comment-button_type_disabled" type="button"
           disabled>Отправить</button>
@@ -99,6 +99,16 @@
             </div>
           </div>
         </div>
+        <form class="comments__add-comment-form" name="comment" id="addReplyForm">
+          <img class="comments__user-img" src="./Images/user_photo_1.jpg" alt="фото пользователя">
+          <p class="comments__user-name">Имя Пользователя</p>
+          <p class="comments__add-comment-txt-limit">Макс. 1000 символов</p>
+          <p class="comments__add-comment-error-msg">Слишком длинное сообщение</p>
+          <textarea class="comments__add-comment-textarea" name="comment" id="addComment"
+            placeholder="Введите текст сообщения..." maxlength="1000" rows="1"></textarea>
+          <button class="comments__add-comment-button comments__add-comment-button_type_disabled" type="button"
+            disabled>Отправить</button>
+        </form>
         <div class="comments__reply-container">
           <div class="comments__reply">
             <img class="comments__user-img" src="./Images/user_photo_2.jpg" alt="фото пользователя">
