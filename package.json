@@ -10,11 +10,12 @@
     }
   },
   "scripts": {
-    "dev": "nodemon",
+    "dev": "nodemon ./src/main.ts",
     "build": "tsc",
     "start": "npm run build && node ./main.js",
     "lint": "npx eslint ./src",
-    "format": "npx eslint ./src --fix"
+    "format": "npx eslint ./src --fix",
+    "serve": "browser-sync start --server"
   },
   "author": "",
   "license": "ISC",
@@ -28,6 +29,7 @@
     "prettier": "^3.1.0",
     "rimraf": "^5.0.5",
     "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
-  }
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {}
 }
